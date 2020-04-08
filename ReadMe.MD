@@ -9,13 +9,21 @@ Diheng Zhang (dihengzhang@email.arizona.edu)
 
 ## Default files:
 .
+
 ├── draw_half_brain.R
+
 ├── figures
+
 │   ├── Chan_Names-half-head.png
+
 │   ├── Value2-half-head.png
+
 │   └── value-half-head.png
+
 ├── half-head-transparent.png
+
 ├── plot.csv
+
 └── ReadMe.MD
 
 ## Required files:
@@ -40,3 +48,10 @@ ggpubr
 
 ## Usage:
 To plot a new half-head pic, add a new column to the plot.csv file, with the title of the pic as the column name. Then insert the numeric data or character data into the rows that are corresponding to their channel locations. Save the plot.csv and run the draw_half_brain.R file and you will get output in the format of "[column_name]-half-head.png". Examples of plot.csv and outputs are available in the same folder. It supports bash outputs with multiple columns.
+
+## Examples:
+![Channel name](./figures/Chan_Name_example.png)
+
+![With numbers](./figures/Value-half_example.png)
+
+![With bold numbers](./figures/Value2-half_example.png)
